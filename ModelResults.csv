@@ -1,0 +1,24 @@
+Model;Actual;Predicted;Count;Threshold;Accuracy;Precision;Recall;F1-Score;ROC-AUC
+Gradient Boosting;Legitimate;Legitimate;299587;0;0.00127;0.00127;1;0.00253;0.99961
+Gradient Boosting;Legitimate;Fraud;33;0.1000;0.9824;0.06713;1;0.12581;0.99961
+Gradient Boosting;Fraud;Legitimate;65;0.2;982;0.0656;0.99737;0.12311;0.99927
+Gradient Boosting;Fraud;Fraud;315;0.3;0.98794;0.09446;0.99211;0.1725;0.99927
+Gradient Boosting;;;;0.4;0.99128;0.12433;0.97368;0.2205;0.99927
+Gradient Boosting;;;;0.5000;0.99371;0.16286;0.95789;0.27839;0.99927
+Gradient Boosting;;;;0.6000;0.99574;0.22181;0.94211;0.35908;0.99927
+Gradient Boosting;;;;0.7000;0.9973;0.30899;0.91316;0.46174;0.99927
+Gradient Boosting;;;;0.8000;0.99861;0.47443;0.87895;0.61624;0.99927
+Gradient Boosting;;;;0.9000;0.99928;0.67742;0.82895;0.74556;0.99927
+Gradient Boosting;;;;0.95;0.99961;0.92283;0.75526;0.83068;0.99927
+Gradient Boosting;;;;1.0000;0.99873;0;0;0;0.99927
+Random Forest;Legitimate;Legitimate;299540;0;0.00127;0.00127;1;0.00253;0.99958
+Random Forest;Legitimate;Fraud;77;0.1000;0.9958;0.2276;0.9737;0.3689;0.9996
+Random Forest;Fraud;Legitimate;80;0.2;0.9976;0.3396;0.95;0.50035;0.99958
+Random Forest;Fraud;Fraud;303;0.3;0.99842;0.44169;0.93684;0.60034;0.99958
+Random Forest;;;;0.4;0.99886;0.52968;0.91579;0.67117;0.99958
+Random Forest;;;;0.5000;0.9991;0.6131;0.8632;0.7169;0.9996
+Random Forest;;;;0.6000;0.9993;0.6834;0.8237;0.7470;0.9996
+Random Forest;;;;0.7000;0.9995;0.7911;0.7974;0.7942;0.9996
+Random Forest;;;;0.8000;0.9996;0.9003;0.7605;0.8245;0.9996
+Random Forest;;;;0.9000;0.9996;0.9511;0.7158;0.8168;0.9996
+Random Forest;;;;1.0000;0.9993;1.0000;0.4711;0.6404;0.9996
