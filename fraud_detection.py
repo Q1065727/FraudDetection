@@ -162,74 +162,13 @@ def random_forest_model(file_path, sample_size=None):
     print(conf_matrix_adj)
 
 
-
-    '''
-    Output:
-    
-    Gradient Boost Algorithm Evaluation Metrics:
-    
-    Evaluation Metrics:
-    Accuracy: 0.98904
-    Precision: 0.10379
-    Recall: 0.99384
-    F1-Score: 0.18795
-    Confusion Matrix:
-    [[1885455   20896]
-     [     15    2420]]
-    Optimal Threshold: 0.98523
-    Optimal Threshold: 0.95000
-    
-    Evaluation Metrics After Threshold Adjustment:
-    Accuracy: 0.99918
-    Precision: 0.62376
-    Recall: 0.90144
-    F1-Score: 0.73732
-    Confusion Matrix After Threshold Adjustment:
-    [[1905027    1324]
-     [    240    2195]]
-    
-    Process finished with exit code 0
-    '''
-
-
-
-
-
-
-
-    '''
-    Evaluation Metrics for Random Forest:
-Accuracy: 0.99920
-Precision: 0.62886
-Recall: 0.90707
-F1-Score: 0.74277
-ROC-AUC: 0.99767
-
-Confusion Matrix:
-[[598827    409]
- [    71    693]]
-
-Optimal Threshold: 0.1
-Evaluation Metrics:
-Accuracy: 0.99564
-Precision: 0.22427
-Recall: 0.98691
-F1-Score: 0.36549
-ROC-AUC: 0.99767
-
-Confusion Matrix:
-[[596628   2608]
- [    10    754]]
-    '''
-
-
 file_path = '/Users/safaorhan/Downloads/ML_Assignment/fraud_detection.csv'  # Path to the dataset location
 gradient_boosting_model(file_path,1000000)
 
-'''random_forest_model(file_path,1000000)
-'''
+random_forest_model(file_path,1000000)
+
 results_df = pd.DataFrame(results)
-'''
-results_df.to_csv('model_results2.csv', index=False)
-print("Results saved to 'model_results2.csv'")'''
+
+results_df.to_csv('model_results.csv', index=False)
+print("Results saved to 'model_results2.csv'")
 
